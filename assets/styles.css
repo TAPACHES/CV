@@ -21,12 +21,18 @@ p{
 }
 
 
-h1{
+h1,h3{
     font-family: "Lato" ;
     color: black;
     text-align: center;
     text-transform: uppercase;
     }
+
+h2{
+    font-family: "Lato" ;
+    color: black;
+    background-color: #dbc2a4;
+}
     
 
 figure{
@@ -61,7 +67,23 @@ address{
 }
 a{
     text-decoration: none;
+    color: #dbc2a4;
 }
 a:hover {
     text-decoration:underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#Côté_gauche{
+    grid-column: 1;
+    background-color: #782221;
+    color: #dbc2a4;
+}
+
+#paraf{
+    text-indent: 5em;
 }
