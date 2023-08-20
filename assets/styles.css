@@ -14,6 +14,12 @@
     url(/assets/Fonts/Raleway-Italic.ttf) format('truetype');
 }
 
+body{
+    width: 1160px;
+    border-right: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 p{
@@ -32,8 +38,19 @@ h2{
     font-family: "Lato" ;
     color: black;
     background-color: #dbc2a4;
+    text-indent: 1em;
 }
-    
+ 
+h4{
+    font-family: "Lato" ;
+    color: black;
+    border-right: 6em solid white;
+}
+
+h4:hover{
+    border-right-color: #2c1d27;
+}
+
 
 figure{
     height: 150px;
@@ -82,6 +99,11 @@ main{
     grid-column: 1;
     background-color: #782221;
     color: #dbc2a4;
+}
+
+#Côté_Droit{
+    grid-column: 2/3;
+    margin-left: 2em;
 }
 
 #paraf{
